@@ -20,8 +20,8 @@ public class Main {
         System.out.println("3. Rome");
         System.out.println("4. Berlin");
         System.out.print("Your answer: ");
-        int answer1 = scanner.nextInt();
-        if (answer1 == 1) {
+        String answer1 = scanner.next();
+        if (answer1.equals("1")) {
             System.out.println("Correct!");
             score++;
         } else {
@@ -34,8 +34,8 @@ public class Main {
         System.out.println("3. Rome");
         System.out.println("4. Berlin");
         System.out.print("Your answer: ");
-        int answer2 = scanner.nextInt();
-        if (answer2 == 4) {
+        String answer2 = scanner.next();
+        if (answer2.equals("4")) {
             System.out.println("Correct!");
             score++;
         } else {
@@ -48,8 +48,8 @@ public class Main {
         System.out.println("3. Rome");
         System.out.println("4. Berlin");
         System.out.print("Your answer: ");
-        int answer3 = scanner.nextInt();
-        if (answer3 == 3) {
+        String answer3 = scanner.next();
+        if (answer3.equals("3")) {
             System.out.println("Correct!");
             score++;
         } else {
@@ -62,8 +62,8 @@ public class Main {
         System.out.println("3. Rome");
         System.out.println("4. Berlin");
         System.out.print("Your answer: ");
-        int answer4 = scanner.nextInt();
-        if (answer4 == 2) {
+        String answer4 = scanner.next();
+        if (answer4.equals("2")) {
             System.out.println("Correct!");
             score++;
         } else {
